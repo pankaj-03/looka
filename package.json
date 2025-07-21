@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://pankaj03.github.io/looka",
+  "homepage": "https://pankaj-03.github.io/looka",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

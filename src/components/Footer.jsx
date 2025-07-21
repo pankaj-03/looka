@@ -1,0 +1,27 @@
+import image from "../assets/review_images.svg"
+
+const Footer = () => {
+  return (
+    <section className="py-24 h-auto bg-gray-100 w-full mx-auto">
+      <div className="flex flex-col justify-center items-center space-y-8">
+        <h1 className="text-5xl font-semibold text-center">Make a logo you'll be proud of</h1>
+        {/* <p className="text-xl  text-slate-500 text-center">Use Looka's AI-powered platform to design a logo and brand you love.</p> */}
+        <div className="flex md:flex-row flex-col md:space-x-2 md:space-y-0 space-y-4">
+          <div className="md:pl-6 md:pr-48 px-18 py-5 text-gray-500 text-nowrap text-base rounded-lg bg-white">
+            Enter your company name
+          </div>
+          <div className="bg-indigo-600 text-white text-nowrap rounded-lg md:px-5 md:py-5 py-5 px-18 center ">
+            Get Started
+          </div>
+        </div>
+        <div>
+          <img src={image} alt="image" className="h-7 w-auto"></img>
+        </div>
+      </div>
+
+
+    </section>
+  )
+}
+
+export default Footer

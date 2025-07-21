@@ -5,6 +5,7 @@ import Main from './components/Main'
 import Navbar from './components/Navbar'
 import Strip from './components/Strip'
 import Carousal from './components/Swiper'
+
 function App() {
  
 

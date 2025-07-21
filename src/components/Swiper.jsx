@@ -1,10 +1,11 @@
+//images
 import carousal1 from "../assets/carousal1.jpg"
 import carousal2 from "../assets/carousal2.jpg"
 import carousal3 from "../assets/carousal3.jpg"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
+// import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 
@@ -19,6 +20,8 @@ const images = [
   carousal2,
   carousal3
 ]
+
+
 const Carousal = () => {
   return (
     <section className="relative z-10">

@@ -1,3 +1,4 @@
+//images
 import image from "../assets/review_images.svg"
 
 const HeroSection = () => {

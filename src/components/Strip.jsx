@@ -1,3 +1,4 @@
+//images
 import crunch from "../assets/techCrunch.png"
 import forbes from "../assets/forbes.png"
 import globe from "../assets/globe-and-mail.png"

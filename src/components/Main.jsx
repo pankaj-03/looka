@@ -1,6 +1,8 @@
+//images
 import image1 from "../assets/section1.jpg";
 import image2 from "../assets/section2.jpg";
 import image3 from "../assets/section3.jpg";
+
 const Main = () => {
     return (
         <section>
@@ -29,7 +31,6 @@ const Main = () => {
                 </div>
 
                 {/* MAIN SECTION 2 */}
-
 
                 <div className="grid md:grid-cols-2 grid-cols-1 lg:p-4  p-2">
                     <div className="order-2 md:order-none col-span-1 flex flex-col   items-start justify-center  xl:ml-32  lg:px-16 xl:px-8 md:px-12 md:py-16 px-2 py-4">

@@ -40,14 +40,14 @@ const Carousal = () => {
             swiper.pagination.render();
             swiper.pagination.update();
           }}
-          className="w-full lg:h-[600px] md:h-[350px] rounded-lg overflow-hidden"
+          className="w-full lg:h-[650px] md:h-[350px] rounded-lg overflow-hidden"
         >
           {images.map((src, index) => (
             <SwiperSlide key={index}>
               <img
                 src={src}
                 alt={`carousal${index + 1}`}
-                className="w-full h-full object-fit"
+                className="w-full h-full object-cover"
               />
             </SwiperSlide>
           ))}
